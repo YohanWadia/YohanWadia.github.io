@@ -1,0 +1,41 @@
+To avoid the conflict that happened due to gh-pages & YohanWadia.github.io & another repository repo ... I will keep this REPO BLANK
+NOW...
+every new REPO's Pages should load without a conflict.
+============================================================
+
+By loading files(the entire Web dir) to this repo your YohanWadia.github.io will look like this.. just an example
+
+YohanWadia.github.io
+|
+|-firebase.js
+|-Assets
+|-index.html
+|-service-worker.js
+
+=====================================
+Now when i added another repo with its own html page this is what happened
+
+YohanWadia.github.io
+|
+|-firebase.js
+|-AssetsFolder
+|-index.html
+|-service-worker.js
+|-AnotherReposSite
+                |
+                |-Assets
+                |-index.html
+                |-main.js
+                |-style.js
+                
+ and the other website couldnt load because the root YohanWadia.github.io kept giving some error in a JS file.
+ 
+ *****************************************************************************************
+ 
+ HENCE TO AVOID ALL CONFLICTS
+ we will keep this blank... and only call site pages from their own respective REPOs by setting their Pages in the SETTINGS>> Pages tab of that REPO.
+ 
+ 
+ 
+ 
+|
